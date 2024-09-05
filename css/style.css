@@ -1,0 +1,117 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    background-color: #3B6CA7;
+}
+#home{
+    margin-top: 200px;
+    margin-left: 70px;
+    font-size: 50px;
+    margin-right: 300px;
+    color: white;
+}
+header{
+    height: 10vh;
+}
+.homepages{
+    color: rgb(0, 0, 0);
+}
+.educationpages{
+    color: black;
+}
+.skillpages{
+    color: black
+}
+.contactpages{
+    color: black;
+}
+a{
+    
+
+    font-size: 40px;
+    margin-left: 30px;
+    margin-right: 50px;
+    text-decoration: none;
+    color: aliceblue;
+
+}
+.nav{
+    float: right;
+    margin-top: 30px;
+}
+.list{
+    text-align: center;
+    font-size: 50px;
+    margin-top: 100px;
+    color: white;
+}
+    
+
+.list1{
+    margin-top: 20px;
+}
+
+#edu{
+    text-align: center;
+    font-size: 90px;
+    margin-top: 100px;
+    color: white;
+}
+#study{
+    text-align: center;
+    font-size: 54px;
+    color: white;
+    
+}
+#mark{
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    margin-top: 50px;
+}
+#reading{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+    
+.css{
+    position: absolute;
+    right: 30px;
+    top: 150px;
+}
+.written{
+    position: absolute;
+    bottom: 30px;
+    right: 30px;
+}
+.html{
+    position: absolute;
+    left: 30px;
+    top: 120px;
+}
+.contact{
+    
+    color: white;
+    font-size: 50px;
+    margin-left: 500px;
+    margin-top: 300px;
+}
+h5{
+    margin-top: 50px;
+}
+.fa-solid {
+    font-size: 40px;
+    position: absolute;
+    top: 395px;
+    left: 430px;
+}
+.fa-brands{
+    position: absolute;
+    font-size: 50px;
+    top: 485px;
+    left: 430px;
+}
