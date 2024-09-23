@@ -9,7 +9,7 @@
 
 
 #home{
-    height: 100vh;
+    height: 90vh;
     margin-top: 200px;
     margin-left: 70px;
     font-size: 50px;
@@ -24,8 +24,7 @@ header{
 }
 nav a:hover,
 a.active{
-    background-color:rgb(24, 24, 71);
-    border-radius: 15px;
+   text-decoration: underline;
 }
 nav{
 
@@ -54,7 +53,7 @@ a{
 /* .education */
 
 #education{
-    height: 100vh;
+    height: 95vh;
    
 }
 
@@ -92,7 +91,7 @@ top: 150px;
 /* skills */
 
 #skills{
-   height: 100vh;
+   height: 95vh;
    
    
 }
@@ -145,7 +144,7 @@ top: 150px;
     height: 100vh;
 }
 
-.contact1 {
+.contact-container {
     display:flex;
     flex-direction: column;
     align-items: center;
