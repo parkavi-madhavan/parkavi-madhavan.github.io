@@ -22,8 +22,7 @@ header{
     height: 10vh;
    
 }
-nav a:hover,
-a.active{
+nav a:hover{
    text-decoration: underline;
 }
 nav{
