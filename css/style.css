@@ -1,5 +1,4 @@
 *{
-
     margin: 0%;
     padding: 0%;
     scroll-behavior: smooth;
@@ -9,22 +8,20 @@
 
 
 #home{
-    height: 90vh;
+    height: 100vh;
     margin-top: 200px;
     margin-left: 70px;
     font-size: 50px;
     margin-right: 300px;
     color: white;
-   
-
 }
 header{
     height: 10vh;
    
 }
 nav a:hover{
-   text-decoration: underline;
-}
+    text-decoration: underline;
+ }
 nav{
 
     
@@ -39,7 +36,6 @@ nav{
     
 }
 a{
-   
    font-size: 40px;
     margin-left: 30px;
     margin-right: 50px;
@@ -48,15 +44,12 @@ a{
    
 }
 
-
 /* .education */
 
 #education{
-    height: 95vh;
+    height: 100vh;
    
 }
-
-
 .container1{
 position: relative;
 top: 150px;
@@ -74,9 +67,9 @@ top: 150px;
     font-size: 54px;
     color: white;
 }
-#mark{
+#Std{
     text-align: center;
-    font-size: 30px;
+    font-size: 40px;
     color: white;
     margin-top: 50px;
 }
@@ -87,63 +80,96 @@ top: 150px;
 }
 
 
-/* skills */
+/* skill */
 
-#skills{
-   height: 95vh;
+#skill{
+   height: 100vh;
+   display: grid;
+  margin: 60px;
    
-   
+ 
 }
-.Drawing{
-  position: relative;
-  top: 80px;
-  left: 50px;
+#skill h1{
+    text-align: center;
+    color:white ;
+    font-size: 90px;
+    padding-top: 10%;
+  
+}
+
+#skill ul{
+    margin-top: 100px;
+    margin-left: 200px;
+}
+
+.skill{
+    height: 40px;
+    width: 80%;
+    background-color: aliceblue;
+    border-radius: 20px;
+    margin-bottom: 30px;
+}
+
+.color{
+    height: 40px;
+    width: 90%;
+    background-color:  rgb(123, 111, 60);
+    border-radius: 20px;
+    font-size: 30px;
+    padding-left: 10px;
+    color: black;
+}
+
+.color1{
+    height: 40px;
+    width: 80%;
+    background-color: rgb(123, 111, 60);
+    border-radius: 20px;
+    font-size: 30px;
+    padding-left: 10px;
+    color: black;
+}
+
+.color2{
+    height: 40px;
+    width: 50%;
+    background-color: rgb(123, 111, 60) ;
+    border-radius: 20px;
+    font-size: 30px;
+    padding-left: 10px;
+    color: black;
+}
+
+.color3{
+    height: 40px;
+    width: 90%;
+    background-color:  rgb(123, 111, 60);
+    border-radius: 20px;
+    font-size: 30px;
+    padding-left: 10px;
+    color: black;
+}
   
                         
-}
-.written{
-    position: relative;
-    top: 80px;
-    left: 260px;
-}
-.html{
-    position:relative;
-    bottom: 480px;
-    right: 270px;
-   
-  
-}
-
-.css{
-    position: relative;
-    bottom: 470px;
-    left: 590px;
-}
-.skills1 ul{
-    display: flex;
-    flex-direction: column;
-    align-items:center;
-    
-   position: relative;
-    top: 250px;
-    font-size: 60px;
-    color: white;
-    
-   
-    
-}
 
 
 
 
 
 /* Contact */
-
 #contact{
     height: 100vh;
 }
+#Contact h1{
+    text-align: center;
+    color:white ;
+    font-size: 90px;
+    position: relative;
+    top:25vh
 
-.contact-container {
+}
+
+.contact1{
     display:flex;
     flex-direction: column;
     align-items: center;
@@ -154,4 +180,5 @@ top: 150px;
     
     font-size: 40px;
     color: antiquewhite;
+    
 }
