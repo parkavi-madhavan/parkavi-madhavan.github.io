@@ -112,7 +112,7 @@ top: 150px;
 
 .color{
     height: 40px;
-    width: 90%;
+    width: 50%;
     background-color:  rgb(123, 111, 60);
     border-radius: 20px;
     font-size: 30px;
@@ -122,7 +122,7 @@ top: 150px;
 
 .color1{
     height: 40px;
-    width: 80%;
+    width: 65%;
     background-color: rgb(123, 111, 60);
     border-radius: 20px;
     font-size: 30px;
@@ -132,7 +132,7 @@ top: 150px;
 
 .color2{
     height: 40px;
-    width: 50%;
+    width: 30%;
     background-color: rgb(123, 111, 60) ;
     border-radius: 20px;
     font-size: 30px;
