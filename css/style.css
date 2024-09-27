@@ -81,29 +81,37 @@ top: 150px;
 
 
 /* skill */
-
-
-#skills h1{
-    text-align: center;
-    color:white ;
-    font-size: 90px;
-    padding-top: 10%;
+#skill{
+    height: 100vh;
+    display: grid;
+   margin: 60px;
+    
   
-}
-
-#skills ul{
+ }
+ #skill h1{
+     text-align: center;
+     color:white ;
+     font-size: 90px;
+     padding-top: 10%;
    
-    margin-top: 100px;
-    margin-left: 200px;
-}
+ }
+ 
+ #skill ul{
+     margin-top: 100px;
+     margin-left: 200px;
+ }
+ 
+ .skill{
+     height: 40px;
+     width: 80%;
+     background-color: aliceblue;
+     border-radius: 20px;
+     margin-bottom: 30px;
+ }
+ 
 
-.skills{
-    height: 40px;
-    width: 80%;
-    background-color: aliceblue;
-    border-radius: 20px;
-    margin-bottom: 30px;
-}
+
+
 
 .color{
     height: 40px;
