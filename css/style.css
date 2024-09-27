@@ -2,7 +2,6 @@
     margin: 0%;
     padding: 0%;
     scroll-behavior: smooth;
-    
     background-color: #3C6CA8;
 }
 
@@ -23,8 +22,6 @@ nav a:hover{
     text-decoration: underline;
  }
 nav{
-
-    
     padding: 10px;
     text-align: end;
     position: fixed;
@@ -32,8 +29,6 @@ nav{
     background-color: #3C6CA8 ;
     width: 100%;
     z-index: 5;
-
-    
 }
 a{
    font-size: 40px;
@@ -77,10 +72,11 @@ top: 150px;
     display: flex;
     justify-content: center;
     margin-top: 100px;
+
 }
 
 
-/* skill */
+/* skills */
 #skillS{
     height: 100vh;
     display: grid;
@@ -88,25 +84,26 @@ top: 150px;
     
   
  }
- #skillS h1{
-     text-align: center;
-     color:white ;
-     font-size: 90px;
-     padding-top: 10%;
-   
- }
+#skills h1{
+    text-align: center;
+    margin-top: 10px;
+    font-size: 80px;
+    color: aliceblue;
+}
  
  #skillS ul{
      margin-top: 100px;
      margin-left: 200px;
+    
  }
  
  .skillS{
 
-     height: 40px;
+     height: 50px;
      width: 80%;
      background-color: aliceblue;
      border-radius: 20px;
+     margin-top: 50PX;
      margin-bottom: 30px;
  }
  
@@ -115,17 +112,18 @@ top: 150px;
 
 
 .color{
-    height: 40px;
+    height: 50px;
     width: 50%;
     background-color:  rgb(123, 111, 60);
     border-radius: 20px;
     font-size: 30px;
     padding-left: 10px;
     color: black;
+    
 }
 
 .color1{
-    height: 40px;
+    height: 50px;
     width: 65%;
     background-color: rgb(123, 111, 60);
     border-radius: 20px;
@@ -135,7 +133,7 @@ top: 150px;
 }
 
 .color2{
-    height: 40px;
+    height: 50px;
     width: 30%;
     background-color: rgb(123, 111, 60) ;
     border-radius: 20px;
@@ -145,7 +143,7 @@ top: 150px;
 }
 
 .color3{
-    height: 40px;
+    height: 50px;
     width: 90%;
     background-color:  rgb(123, 111, 60);
     border-radius: 20px;
@@ -154,12 +152,6 @@ top: 150px;
     color: black;
 }
   
-                        
-
-
-
-
-
 /* Contact */
 #contact{
     height: 100vh;
@@ -177,12 +169,8 @@ top: 150px;
     display:flex;
     flex-direction: column;
     align-items: center;
-
     position: relative;
     top: 400px;
-
-    
     font-size: 40px;
     color: antiquewhite;
-    
 }
