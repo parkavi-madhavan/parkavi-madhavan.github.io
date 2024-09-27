@@ -62,6 +62,12 @@ top: 150px;
     font-size: 54px;
     color: white;
 }
+p{
+    text-align: center;
+    margin: 60px;
+    font-size: 40px;
+    color: aliceblue;
+}
 #Std{
     text-align: center;
     font-size: 40px;
@@ -80,10 +86,8 @@ top: 150px;
 #skillS{
     height: 100vh;
     display: grid;
-   margin: 60px;
-    
-  
- }
+    margin: 60px;
+}
 #skills h1{
     text-align: center;
     margin-top: 10px;
@@ -119,7 +123,7 @@ top: 150px;
     font-size: 30px;
     padding-left: 10px;
     color: black;
-    
+
 }
 
 .color1{
