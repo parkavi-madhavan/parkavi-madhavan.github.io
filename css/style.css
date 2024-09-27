@@ -81,14 +81,14 @@ top: 150px;
 
 
 /* skill */
-#skill{
+#skillS{
     height: 100vh;
     display: grid;
    margin: 60px;
     
   
  }
- #skill h1{
+ #skillS h1{
      text-align: center;
      color:white ;
      font-size: 90px;
@@ -96,12 +96,13 @@ top: 150px;
    
  }
  
- #skill ul{
+ #skillS ul{
      margin-top: 100px;
      margin-left: 200px;
  }
  
- .skill{
+ .skillS{
+
      height: 40px;
      width: 80%;
      background-color: aliceblue;
