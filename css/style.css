@@ -82,13 +82,7 @@ top: 150px;
 
 /* skill */
 
-#skill{
-   height: 100vh;
-   display: grid;
-  margin: 60px;
-   
- 
-}
+
 #skills h1{
     text-align: center;
     color:white ;
@@ -97,7 +91,8 @@ top: 150px;
   
 }
 
-#skills {
+#skills ul{
+   
     margin-top: 100px;
     margin-left: 200px;
 }
