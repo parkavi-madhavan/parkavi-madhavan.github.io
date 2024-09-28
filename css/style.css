@@ -80,55 +80,53 @@ p{
     margin-top: 100px;
 
 }
-
-
 /* skills */
-#skillS{
-    height: 100vh;
-    display: grid;
-    margin: 60px;
+
+#skills{
+   height: 100vh;
+   display: grid;
+  margin: 60px;
+   
+ 
 }
 #skills h1{
     text-align: center;
-    margin-top: 10px;
-    font-size: 80px;
-    color: aliceblue;
+    color:white ;
+    font-size: 90px;
+    padding-top: 10%;
+  
 }
- 
- #skillS ul{
-     margin-top: 100px;
-     margin-left: 200px;
+
+
+#skills ul{
+    margin-top: 100px;
+    margin-left: 200px;
     
- }
- 
- .skillS{
+  
+}
 
-     height: 50px;
-     width: 80%;
-     background-color: aliceblue;
-     border-radius: 20px;
-     margin-top: 50PX;
-     margin-bottom: 30px;
- }
- 
+.skills{
+    height: 40px;
+    width: 80%;
+    background-color: aliceblue;
+    border-radius: 20px;
+    margin-bottom: 30px;
 
-
-
+}
 
 .color{
-    height: 50px;
+    height: 40px;
     width: 50%;
     background-color:  rgb(123, 111, 60);
     border-radius: 20px;
     font-size: 30px;
     padding-left: 10px;
     color: black;
-
 }
 
 .color1{
-    height: 50px;
-    width: 65%;
+    height: 40px;
+    width: 30%;
     background-color: rgb(123, 111, 60);
     border-radius: 20px;
     font-size: 30px;
@@ -137,8 +135,8 @@ p{
 }
 
 .color2{
-    height: 50px;
-    width: 30%;
+    height: 40px;
+    width: 63%;
     background-color: rgb(123, 111, 60) ;
     border-radius: 20px;
     font-size: 30px;
@@ -147,7 +145,7 @@ p{
 }
 
 .color3{
-    height: 50px;
+    height: 40px;
     width: 90%;
     background-color:  rgb(123, 111, 60);
     border-radius: 20px;
@@ -155,7 +153,6 @@ p{
     padding-left: 10px;
     color: black;
 }
-  
 /* Contact */
 #contact{
     height: 100vh;
