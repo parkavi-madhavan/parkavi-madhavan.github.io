@@ -18,6 +18,13 @@ header{
     height: 10vh;
    
 }
+.box h2 , i{
+    background:none;
+    margin-top: 60px;
+    
+
+
+}
 nav a:hover{
     text-decoration: underline;
  }
@@ -38,123 +45,256 @@ a{
     color: aliceblue;
    
 }
-
-/* .education */
-
-#education{
+/* about */
+ 
+  #about{
     height: 100vh;
-   
 }
-.container1{
-position: relative;
-top: 150px;
-}
-
-#edu{
+#about p{
+    font-size: 40px;
     
+    padding-left: 300px;
+    padding-right: 300px;padding-top: 100px;
+
+  }  
+  #about h1{
     text-align: center;
+    color:white ;
     font-size: 90px;
-    margin-top: 100px;
-    color: white;
+    padding-top: 100px;
+    
 }
-#study{
-    text-align: center;
-    font-size: 54px;
-    color: white;
-}
-p{
-    text-align: center;
-    margin: 60px;
-    font-size: 40px;
-    color: aliceblue;
-}
-#Std{
-    text-align: center;
-    font-size: 40px;
-    color: white;
-    margin-top: 50px;
-}
-#reading{
+
+   
+/* englishskills */
+#english{
+    height: 200vh;
     display: flex;
-    justify-content: center;
-    margin-top: 100px;
-
+    
 }
-/* skills */
 
+.box{
+   position: relative;
+   top: 45%;
+   
+    height: 20rem;
+    width: 25rem;
+    background-color: white;
+    border-radius: 10px;
+    margin: 10px;
+    font-size: 22px;
+    text-align: center;
+}
+#englishskills h1{
+    position: absolute;
+    text-align: center;
+    color:white ;
+    font-size: 90px;
+    padding-top: 100px;
+    padding-left: 40%;
+}
+
+   #englishskills{
+     height:100vh;
+     display:flex;
+     justify-content: space-between;
+   
+     gap: 20px;
+     max-width: 120vw;
+   }
+   #lifeskills{
+    height: 130vh;
+   }
+  .skills-section {
+    text-align: center;
+    width: 80%;
+  }
+  #lifeskills h1{
+    text-align: center;
+    color:white ;
+    font-size: 90px;
+    padding-top: 100px;
+  }
+ 
+  .title {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .skills-container {
+    display: flex;
+    justify-content: space-evenly;   
+    
+  }
+  .skills-container h3{
+   background-color: white;
+   margin-top: 30px;
+
+  }
+  
+
+  .skill-card1, .skill-card2, .skill-card3{
+    border: 2px solid white;
+    height: 350px;
+    width: 350px;
+    background-color: aliceblue;
+    border-radius: 10px;
+    margin-left: 100px;
+    margin-top: 250px;
+    font-size: 22px;
+    text-align: center;
+  }
+
+  .skill h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #e4cfcf;
+  }
+  
+  .progress-bar {
+    background: #eee;
+    border-radius: 20px;
+    height: 20px;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .progress {
+    height: 100%;
+    background:rgb(22, 198, 22);
+    border-radius: 20px;
+  }
+  
+  .be {
+    font-size: 0.9rem;
+    color: #c28181;
+    margin-top: 10px;
+  }
+  
+/*  skills */
 #skills{
    height: 100vh;
    display: grid;
   margin: 60px;
-   
- 
 }
 #skills h1{
-    text-align: center;
-    color:white ;
-    font-size: 90px;
-    padding-top: 10%;
+  text-align: center;
+  color:white ;
+  font-size: 90px;
+  padding-top: 100px;
+}
+.Tech-skills{
+  height: 30px;
+  width: 90%;
+  
+  border-radius: 20px;
+  background-color: white;
+  margin-top: 10px;
+}
+
+
+
+.html{
+  width: 30%;
+  height: 30px;
+  border-radius: 20px;
+  background-color: rgb(62, 197, 241);
+  color: black;
+  text-align: start;
+}
+.HTML{
+  color: white;
+  margin-left: 15px;
+}
+.css{
+  width: 30%;
+  height: 30px;
+  border-radius: 30px;
+  background-color: rgb(62, 197, 241);
+  color: black;
+  text-align: start;
+}
+.CSS{
+  color: white;
+  margin-left: 20px;
+}
+.js{
+  width: 30%;
+  height: 30px;
+  border-radius: 20px;
+  background-color: rgb(62, 197, 241);
+  color: black;
+  text-align: start;
+}
+.JS{
+  color: white;
+  margin-left: 35px;
+}
+.mysql{
+  width: 30%;
+  height: 30px;
+  border-radius: 20px;
+  background-color: rgb(62, 197, 241);
+  color: black;
+  text-align: start;
+}
+.MYSQL{
+  color: white;
+  margin-left: 8px;
+}
+.python{
+  width: 30%;
+  height: 30px;
+  border-radius: 20px;
+  background-color: rgb(62, 197, 241);
+  color: black;
+  text-align: start;
+}
+.PYTHON{
+  color: white;
+}
+.ps{
+  width: 30%;
+  height: 30px;
+  border-radius: 20px;
+  background-color: rgb(62, 197, 241);
+  color: black;
+  text-align: start;
+}
+.PS{
+  color: white;
+  margin-left: 27px;
   
 }
+p{
+  padding-top: 7px;
+  padding-left: 10px;
+  font-weight: bold;
+ 
+  background-color: transparent;
+}
+.tech{
+  width: 100%;
+  display: flex;
 
-
-#skills ul{
-    margin-top: 100px;
-    margin-left: 200px;
-    
+  overflow: hidden;
+  padding-top: 50px;
+}
+.skills-content1{
+  width: 100%;
+  position: relative;
+  left: 40px;
   
 }
-
-.skills{
-    height: 40px;
-    width: 80%;
-    background-color: aliceblue;
-    border-radius: 20px;
-    margin-bottom: 30px;
-
-}
-
-.color{
-    height: 40px;
-    width: 70%;
-    background-color:  rgb(123, 111, 60);
-    border-radius: 20px;
-    font-size: 30px;
-    padding-left: 10px;
-    color: black;
-}
-
-.color1{
-    height: 40px;
-    width: 60%;
-    background-color: rgb(123, 111, 60);
-    border-radius: 20px;
-    font-size: 30px;
-    padding-left: 10px;
-    color: black;
-}
-
-.color2{
-    height: 40px;
-    width: 10%;
-    background-color: rgb(123, 111, 60) ;
-    border-radius: 20px;
-    font-size: 30px;
-    padding-left: 10px;
-    color: black;
-}
-
-.color3{
-    height: 40px;
-    width: 90%;
-    background-color:  rgb(123, 111, 60);
-    border-radius: 20px;
-    font-size: 30px;
-    padding-left: 10px;
-    color: black;
+.skills-content2{
+  width: 100%;
+  position: relative;
+  left: 40px;
 }
 /* Contact */
-#contact{
+
+#contact{ 
     height: 100vh;
 }
 #Contact h1{
